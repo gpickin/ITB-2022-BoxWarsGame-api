@@ -21,6 +21,10 @@ component {
 			.withHandler( "Answers" )
 			.toAction( { GET: "index", POST: "create" } );
 
+		route( "/topscores" )
+			.withHandler( "TopScores" )
+			.toAction( { GET: "index", POST: "create" } );
+
 		route( "/games" )
 			.withHandler( "Games" )
 			.toAction( { POST: "create" } );
