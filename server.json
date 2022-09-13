@@ -1,11 +1,8 @@
 {
-    "app":{
-        "cfengine":"adobe@2021.0.3+329779"
-    },
-    "name":"acf-dev-feud",
+    "name":"itbboxwars",
     "web":{
         "http":{
-            "port":"54006"
+            "port":"54001"
         },
         "rewrites":{
             "enable":true
